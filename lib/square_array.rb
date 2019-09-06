@@ -4,21 +4,15 @@ def square_array(array)
   
   new_numbers = []
   
-  # while counter < array.length do
+  while counter < array.length do
     
-  #   new_numbers << (array[counter] ** 2) 
+    new_numbers << (array[counter] ** 2) 
     
     
-  #   counter+=1
+    counter+=1
     
-  # end
+  end
   
- array.each do |element|
-   
-  new_numbers << element * 2
-   
- end
 
-    puts new_numbers
 
 end
