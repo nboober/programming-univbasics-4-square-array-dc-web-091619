@@ -13,6 +13,11 @@ def square_array(array)
     
   # end
   
+  for i in array[0]...array.length
+  
+      new_numbers << i ** 2
+  
+  end
       puts new_numbers
 
 end
