@@ -19,4 +19,6 @@ def square_array(array)
    
  end
 
+    puts new_numbers
+
 end
