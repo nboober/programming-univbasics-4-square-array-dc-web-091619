@@ -13,6 +13,6 @@ def square_array(array)
     
   end
   
-      puts newArr
+      puts newArr.to_a
 
 end
