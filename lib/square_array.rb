@@ -13,6 +13,8 @@ def square_array(array)
     
   # end
   
- 
+ array.each do |element|
+   
+   
 
 end
