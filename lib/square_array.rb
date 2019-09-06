@@ -6,13 +6,13 @@ def square_array(array)
   
   while counter < array.length do
     
-    newArr.push(newarray[counter] ** newarray[counter]) 
+    newArr.push(array[counter] ** array[counter]) 
     
-    puts newArr[counter]
     
     counter+=1
     
   end
   
+      puts newArr[counter]
 
 end
