@@ -1,21 +1,20 @@
 def square_array(array)
   
-  # counter = 0
+  counter = 0
   
-  # newArr = []
+  newArr = []
   
-  # while counter < array.length do
+  while counter < array.length do
     
-  #   newArr.push(newarray[counter] ** newarray[counter]) 
+    newArr.push(newarray[counter] ** newarray[counter]) 
     
-  #   puts newArr[counter]
+    puts newArr[counter]
     
-  #   counter+=1
+    counter+=1
     
-  # end
+  end
   
   
   
-  puts array * 2
-  
+
 end
